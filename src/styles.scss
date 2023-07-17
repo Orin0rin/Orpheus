@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'ag-grid-community/styles/ag-grid.css';
+@import 'ag-grid-community/styles/ag-theme-alpine.css';
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~@fortawesome/fontawesome-free/css/all.css";
+
+html, body {
+   height: 100%;
+   width: 100%;
+   padding: 5px;
+   box-sizing: border-box;
+   -webkit-overflow-scrolling: touch;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   background-image: linear-gradient(to bottom right,rgb(255, 255, 255),rgb(0, 0, 0));
+}
+
+.ag-theme-alpine {
+  /* bright green, 10% opacity */
+  --ag-selected-row-background-color: rgb(217, 226, 131);
+  --ag-foreground-color: rgb(2, 0, 95);
+  --ag-header-background-color: rgb(130, 175, 228);
+  --ag-background-color: rgb(222, 251, 253);
+  --ag-odd-row-background-color: rgb(189, 189, 189);
+  --ag-font-size: 16px;
+  --ag-font-family: 'B Titr';
+}
+
+
+
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';

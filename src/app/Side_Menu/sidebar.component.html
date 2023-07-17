@@ -1,0 +1,17 @@
+<mat-drawer-container class="example-container">
+  <mat-drawer #drawer class="example-sidenav" mode="side">
+    <a routerLink="/login">login</a>
+    <a routerLink="/podcast">podcast</a>
+  </mat-drawer>
+
+
+  <mat-drawer-content>
+     <div class="example-sidenav-content">
+    <button type="button" mat-button (click)="drawer.toggle()">
+      Toggle sidenav
+    </button>
+  </div>
+    <!-- <router-outlet></router-outlet> -->
+  </mat-drawer-content>
+
+</mat-drawer-container>

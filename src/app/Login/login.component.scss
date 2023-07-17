@@ -1,0 +1,68 @@
+mat-card.example-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 99%;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  mat-card-header {
+    mat-card-title {
+      font-size: 24px;
+      font-weight: bold;
+    }
+  }
+
+  mat-card-content {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    mat-label {
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    input[matInput] {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      outline: none;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid #ccc;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+  }
+
+  mat-card-actions {
+    button[mat-button] {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      margin-top: 20px;
+      border: none;
+      border-radius: 5px;
+      background-color: #007bff;
+      color: #fff;
+      cursor: pointer;
+
+      &:disabled {
+        background-color: #ccc;
+        cursor: not-allowed;
+      }
+
+      &:hover {
+        background-color: #0056b3;
+      }
+    }
+  }
+}

@@ -1,0 +1,66 @@
+<button (click)="ShowAddEditModal(null)"  class="addbtn">Add Podcast</button>
+<!-- AG Grid Angular Component -->
+<ag-grid-angular
+   style="width: 100%; height: 70%"
+   class="ag-theme-alpine"
+   [columnDefs]="columnDefs"
+   [defaultColDef]="defaultColDef"
+   [rowData]="rowData$"
+   [context]="context"
+   [rowSelection]="'multiple'"
+   [frameworkComponents]="frameworkComponents"
+   [animateRows]="true"
+   (gridReady)="onGridReady($event)"
+   (cellClicked)="onCellClicked($event)"
+ ></ag-grid-angular>
+
+
+<ng-template #addEditModalContent>
+<div class="modal-header">
+  <h4 class="modal-title" *ngIf="!currentItem.id">Add New Podcast</h4>
+  <h4 class="modal-title" *ngIf="currentItem.id">Edit Podcast</h4>
+  <button type="button" (click)="CloseModal()" class="btn-close" aria-label="Close"></button>
+</div>
+<div class="modal-body">
+    <div class="row my-3">
+      <div class="col">
+        <label for="exampleFormControlInput1" class="form-label">Title:</label>
+        <input [(ngModel)]="currentItem.title" class="form-control form-control-sm" placeholder="Enter Podcast's Title Here">
+      </div>
+    </div>
+    <input type="hidden" [(ngModel)]="originalPublishDate" [value]="currentItem.publishDate">
+    <div class="row my-3">
+      <div class="form-outline">
+        <label for="exampleFormControlInput1" class="form-label">Description:</label>
+        <input [(ngModel)]="currentItem.description" class="form-control form-control-sm" placeholder="Enter Podcast's Description Here" />
+      </div>
+    </div>
+    <div class="row my-3">
+      <div class="col">
+        <label for="exampleFormControlInput1" class="form-label">Voice Address:</label>
+        <input [(ngModel)]="currentItem.voiceAddress" class="form-control form-control-sm" placeholder="Enter Podcast's Voice Address Here">
+      </div>
+    </div>
+    <div class="row my-3">
+      <div class="form-group">
+        <label class="control-label">Podcast Group</label>
+        <div class="append-icon">
+          <select class="form-control" [(ngModel)]="currentItem.groupID">
+            <option *ngFor="let podcastGroup of podcastGroups" [ngValue]="podcastGroup.id">
+              {{ podcastGroup.name }}
+            </option>
+          </select>
+        </div>
+      </div>
+    </div>
+</div>
+<div class="modal-footer">
+
+  <button type="button" (click)="CloseModal()" class="btn btn-outline-dark">Close</button>
+  <button type="button" (click)="AddPodcast()" *ngIf="!currentItem.id" class="btn btn-outline-success">Add</button>
+
+  <button type="button" (click)="EditPodcast(podcast)" *ngIf="currentItem.id" class="btn btn-outline-success">Edit</button>
+</div>
+</ng-template>
+
+

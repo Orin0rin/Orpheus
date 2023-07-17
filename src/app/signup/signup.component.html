@@ -1,0 +1,76 @@
+<!-- <form [formGroup]="signupForm" (ngSubmit)="onSubmit()">
+  <div>
+    <label for="username">Username:</label>
+    <input type="text" id="username" formControlName="username" required>
+    <span *ngIf="isFieldInvalid('username')" class="error-message">Username is required.</span>
+  </div>
+
+  <div>
+    <label for="password">Password:</label>
+    <input type="{{ isPasswordVisible ? 'text' : 'password' }}" id="password" formControlName="password" required>
+    <button type="button" (click)="togglePasswordVisibility()">Show/Hide</button>
+    <span *ngIf="isFieldInvalid('password')" class="error-message">Password is required.</span>
+    <span [ngSwitch]="getPasswordRole(signupForm.get('password')?.value)">
+      <span *ngSwitchCase="'invalid'" class="password-role invalid">Invalid</span>
+      <span *ngSwitchCase="'weak'" class="password-role weak">Weak</span>
+      <span *ngSwitchCase="'medium'" class="password-role medium">Medium</span>
+      <span *ngSwitchCase="'strong'" class="password-role strong">Strong</span>
+    </span>
+  </div>
+
+  <div>
+    <label for="confirm-password">Confirm Password:</label>
+    <input type="password" id="confirm-password" formControlName="confirmPassword" required>
+    <span *ngIf="isFieldInvalid('confirmPassword')" class="error-message">Please confirm your password.</span>
+    <span *ngIf="isPasswordMismatch()" class="error-message">Passwords do not match.</span>
+  </div>
+
+  <div>
+    <label for="photo">Photo:</label>
+    <input type="file" id="photo" formControlName="photo" accept="image/*">
+  </div>
+
+  <button type="submit" [disabled]="signupForm.invalid">Sign Up</button>
+</form> -->
+
+<mat-card>
+  <form [formGroup]="signupForm" (ngSubmit)="onSubmit()">
+    <div>
+      <mat-label for="username">Username:</mat-label>
+      <input type="text" id="username" formControlName="username" required aria-label="Username">
+      <mat-error *ngIf="isFieldInvalid('username')">Username is required.</mat-error>
+    </div>
+
+    <div>
+      <mat-label for="password">Password:</mat-label>
+      <input type="{{ isPasswordVisible ? 'text' : 'password' }}" id="password" formControlName="password" required
+        aria-label="Password">
+        <button mat-button matSuffix type="button" (click)="togglePasswordVisibility()">
+          {{ isPasswordVisible ? 'Hide' : 'Show' }}
+        </button>
+      <mat-error *ngIf="isFieldInvalid('password')">Password is required.</mat-error>
+      <ng-container [ngSwitch]="getPasswordRole(signupForm.get('password')?.value)">
+        <mat-error *ngSwitchCase="'invalid'" class="password-role invalid">Invalid</mat-error>
+        <mat-error *ngSwitchCase="'weak'" class="password-role weak">Weak</mat-error>
+        <mat-error *ngSwitchCase="'medium'" class="password-role medium">Medium</mat-error>
+        <mat-error *ngSwitchCase="'strong'" class="password-role strong">Strong</mat-error>
+      </ng-container>
+    </div>
+
+    <div>
+      <mat-label for="confirm-password">Confirm Password:</mat-label>
+      <input type="password" id="confirm-password" formControlName="confirmPassword" required
+        aria-label="Confirm Password">
+      <mat-error *ngIf="isFieldInvalid('confirmPassword')">Please confirm your password.</mat-error>
+      <mat-error *ngIf="isPasswordMismatch()">Passwords do not match.</mat-error>
+    </div>
+
+    <div>
+      <mat-label for="photo">Photo:</mat-label>
+      <input type="file" id="photo" formControlName="photo" accept="image/*" aria-label="Photo">
+    </div>
+
+    <button mat-raised-button color="primary" type="submit" [disabled]="signupForm.invalid">Sign Up</button>
+  </form>
+</mat-card>
+
