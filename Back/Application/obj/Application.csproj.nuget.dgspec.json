@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\MyCodes\\WorkClass\\ThirdTry\\ThirdTry\\Application\\Application.csproj": {}
+    "C:\\MyCodes\\WorkClass\\ThirdTry\\Orpheus Cast\\Back\\Application\\Application.csproj": {}
   },
   "projects": {
-    "C:\\MyCodes\\WorkClass\\ThirdTry\\ThirdTry\\Application\\Application.csproj": {
+    "C:\\MyCodes\\WorkClass\\ThirdTry\\Orpheus Cast\\Back\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MyCodes\\WorkClass\\ThirdTry\\ThirdTry\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\MyCodes\\WorkClass\\ThirdTry\\Orpheus Cast\\Back\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\MyCodes\\WorkClass\\ThirdTry\\ThirdTry\\Application\\Application.csproj",
+        "projectPath": "C:\\MyCodes\\WorkClass\\ThirdTry\\Orpheus Cast\\Back\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\Valerian\\.nuget\\packages\\",
-        "outputPath": "C:\\MyCodes\\WorkClass\\ThirdTry\\ThirdTry\\Application\\obj\\",
+        "outputPath": "C:\\MyCodes\\WorkClass\\ThirdTry\\Orpheus Cast\\Back\\Application\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\Valerian\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -32,8 +28,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\MyCodes\\WorkClass\\ThirdTry\\ThirdTry\\Data\\Data.csproj": {
-                "projectPath": "C:\\MyCodes\\WorkClass\\ThirdTry\\ThirdTry\\Data\\Data.csproj"
+              "C:\\MyCodes\\WorkClass\\ThirdTry\\Orpheus Cast\\Back\\Data\\Data.csproj": {
+                "projectPath": "C:\\MyCodes\\WorkClass\\ThirdTry\\Orpheus Cast\\Back\\Data\\Data.csproj"
               }
             }
           }
@@ -63,25 +59,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\MyCodes\\WorkClass\\ThirdTry\\ThirdTry\\Data\\Data.csproj": {
+    "C:\\MyCodes\\WorkClass\\ThirdTry\\Orpheus Cast\\Back\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MyCodes\\WorkClass\\ThirdTry\\ThirdTry\\Data\\Data.csproj",
+        "projectUniqueName": "C:\\MyCodes\\WorkClass\\ThirdTry\\Orpheus Cast\\Back\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "C:\\MyCodes\\WorkClass\\ThirdTry\\ThirdTry\\Data\\Data.csproj",
+        "projectPath": "C:\\MyCodes\\WorkClass\\ThirdTry\\Orpheus Cast\\Back\\Data\\Data.csproj",
         "packagesPath": "C:\\Users\\Valerian\\.nuget\\packages\\",
-        "outputPath": "C:\\MyCodes\\WorkClass\\ThirdTry\\ThirdTry\\Data\\obj\\",
+        "outputPath": "C:\\MyCodes\\WorkClass\\ThirdTry\\Orpheus Cast\\Back\\Data\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\Valerian\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -95,8 +87,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\MyCodes\\WorkClass\\ThirdTry\\ThirdTry\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\MyCodes\\WorkClass\\ThirdTry\\ThirdTry\\Domain\\Domain.csproj"
+              "C:\\MyCodes\\WorkClass\\ThirdTry\\Orpheus Cast\\Back\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\MyCodes\\WorkClass\\ThirdTry\\Orpheus Cast\\Back\\Domain\\Domain.csproj"
               }
             }
           }
@@ -148,25 +140,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\MyCodes\\WorkClass\\ThirdTry\\ThirdTry\\Domain\\Domain.csproj": {
+    "C:\\MyCodes\\WorkClass\\ThirdTry\\Orpheus Cast\\Back\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MyCodes\\WorkClass\\ThirdTry\\ThirdTry\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\MyCodes\\WorkClass\\ThirdTry\\Orpheus Cast\\Back\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\MyCodes\\WorkClass\\ThirdTry\\ThirdTry\\Domain\\Domain.csproj",
+        "projectPath": "C:\\MyCodes\\WorkClass\\ThirdTry\\Orpheus Cast\\Back\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Valerian\\.nuget\\packages\\",
-        "outputPath": "C:\\MyCodes\\WorkClass\\ThirdTry\\ThirdTry\\Domain\\obj\\",
+        "outputPath": "C:\\MyCodes\\WorkClass\\ThirdTry\\Orpheus Cast\\Back\\Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\Valerian\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -207,7 +195,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

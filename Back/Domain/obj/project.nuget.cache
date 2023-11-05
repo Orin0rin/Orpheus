@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KW8yYbAaNw5S6mGB1TZCttC6PHUVOuyvbr78IA7p7O+rSyzTe1RuooYEYlD47AeFnqegl2uZ6iluGPSbmYAEdA==",
+  "dgSpecHash": "WUAk4Vj0mrgdIthN5ks9xCA8cGpJzMCdzEyHJcQvCW8FpJ/bE6fM+hlSjZHGQQEIWLdf4OdT2yE0M38kU0YR/Q==",
   "success": true,
-  "projectFilePath": "C:\\MyCodes\\WorkClass\\ThirdTry\\ThirdTry\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\MyCodes\\WorkClass\\ThirdTry\\Orpheus Cast\\Back\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "A6zPSKt0FdRwKNqU+fRNRs5IzY7Tm7ngEmjC843/hBRK4RxzVeOoCFx8D4PKrQUrO3BgLjNb4c1NqcLFhW8tLA==",
+  "dgSpecHash": "dUo6wA/C5A5021q4okATmcjuFA5l2dhiaLGdYsBmuurAy/SOvq9f/X0sxeNcS2V2fpl4Zjh4RodrvU8VXyQYig==",
   "success": true,
-  "projectFilePath": "C:\\MyCodes\\WorkClass\\ThirdTry\\ThirdTry\\Application\\Application.csproj",
+  "projectFilePath": "C:\\MyCodes\\WorkClass\\ThirdTry\\Orpheus Cast\\Back\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Valerian\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Valerian\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

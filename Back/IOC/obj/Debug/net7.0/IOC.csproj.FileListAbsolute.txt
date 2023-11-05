@@ -17,3 +17,22 @@ C:\MyCodes\WorkClass\ThirdTry\ThirdTry\IOC\obj\Debug\net7.0\IOC.dll
 C:\MyCodes\WorkClass\ThirdTry\ThirdTry\IOC\obj\Debug\net7.0\refint\IOC.dll
 C:\MyCodes\WorkClass\ThirdTry\ThirdTry\IOC\obj\Debug\net7.0\IOC.pdb
 C:\MyCodes\WorkClass\ThirdTry\ThirdTry\IOC\obj\Debug\net7.0\ref\IOC.dll
+C:\MyCodes\WorkClass\ThirdTry\Orpheus Cast\Back\IOC\bin\Debug\net7.0\IOC.deps.json
+C:\MyCodes\WorkClass\ThirdTry\Orpheus Cast\Back\IOC\bin\Debug\net7.0\IOC.dll
+C:\MyCodes\WorkClass\ThirdTry\Orpheus Cast\Back\IOC\bin\Debug\net7.0\IOC.pdb
+C:\MyCodes\WorkClass\ThirdTry\Orpheus Cast\Back\IOC\bin\Debug\net7.0\Application.dll
+C:\MyCodes\WorkClass\ThirdTry\Orpheus Cast\Back\IOC\bin\Debug\net7.0\Data.dll
+C:\MyCodes\WorkClass\ThirdTry\Orpheus Cast\Back\IOC\bin\Debug\net7.0\Domain.dll
+C:\MyCodes\WorkClass\ThirdTry\Orpheus Cast\Back\IOC\bin\Debug\net7.0\Application.pdb
+C:\MyCodes\WorkClass\ThirdTry\Orpheus Cast\Back\IOC\bin\Debug\net7.0\Data.pdb
+C:\MyCodes\WorkClass\ThirdTry\Orpheus Cast\Back\IOC\bin\Debug\net7.0\Domain.pdb
+C:\MyCodes\WorkClass\ThirdTry\Orpheus Cast\Back\IOC\obj\Debug\net7.0\IOC.csproj.AssemblyReference.cache
+C:\MyCodes\WorkClass\ThirdTry\Orpheus Cast\Back\IOC\obj\Debug\net7.0\IOC.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyCodes\WorkClass\ThirdTry\Orpheus Cast\Back\IOC\obj\Debug\net7.0\IOC.AssemblyInfoInputs.cache
+C:\MyCodes\WorkClass\ThirdTry\Orpheus Cast\Back\IOC\obj\Debug\net7.0\IOC.AssemblyInfo.cs
+C:\MyCodes\WorkClass\ThirdTry\Orpheus Cast\Back\IOC\obj\Debug\net7.0\IOC.csproj.CoreCompileInputs.cache
+C:\MyCodes\WorkClass\ThirdTry\Orpheus Cast\Back\IOC\obj\Debug\net7.0\IOC.csproj.CopyComplete
+C:\MyCodes\WorkClass\ThirdTry\Orpheus Cast\Back\IOC\obj\Debug\net7.0\IOC.dll
+C:\MyCodes\WorkClass\ThirdTry\Orpheus Cast\Back\IOC\obj\Debug\net7.0\refint\IOC.dll
+C:\MyCodes\WorkClass\ThirdTry\Orpheus Cast\Back\IOC\obj\Debug\net7.0\IOC.pdb
+C:\MyCodes\WorkClass\ThirdTry\Orpheus Cast\Back\IOC\obj\Debug\net7.0\ref\IOC.dll

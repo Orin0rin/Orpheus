@@ -15,3 +15,20 @@ C:\MyCodes\WorkClass\ThirdTry\ThirdTry\Application\obj\Debug\net7.0\Application.
 C:\MyCodes\WorkClass\ThirdTry\ThirdTry\Application\obj\Debug\net7.0\refint\Application.dll
 C:\MyCodes\WorkClass\ThirdTry\ThirdTry\Application\obj\Debug\net7.0\Application.pdb
 C:\MyCodes\WorkClass\ThirdTry\ThirdTry\Application\obj\Debug\net7.0\ref\Application.dll
+C:\MyCodes\WorkClass\ThirdTry\Orpheus Cast\Back\Application\bin\Debug\net7.0\Application.deps.json
+C:\MyCodes\WorkClass\ThirdTry\Orpheus Cast\Back\Application\bin\Debug\net7.0\Application.dll
+C:\MyCodes\WorkClass\ThirdTry\Orpheus Cast\Back\Application\bin\Debug\net7.0\Application.pdb
+C:\MyCodes\WorkClass\ThirdTry\Orpheus Cast\Back\Application\bin\Debug\net7.0\Data.dll
+C:\MyCodes\WorkClass\ThirdTry\Orpheus Cast\Back\Application\bin\Debug\net7.0\Domain.dll
+C:\MyCodes\WorkClass\ThirdTry\Orpheus Cast\Back\Application\bin\Debug\net7.0\Data.pdb
+C:\MyCodes\WorkClass\ThirdTry\Orpheus Cast\Back\Application\bin\Debug\net7.0\Domain.pdb
+C:\MyCodes\WorkClass\ThirdTry\Orpheus Cast\Back\Application\obj\Debug\net7.0\Application.csproj.AssemblyReference.cache
+C:\MyCodes\WorkClass\ThirdTry\Orpheus Cast\Back\Application\obj\Debug\net7.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyCodes\WorkClass\ThirdTry\Orpheus Cast\Back\Application\obj\Debug\net7.0\Application.AssemblyInfoInputs.cache
+C:\MyCodes\WorkClass\ThirdTry\Orpheus Cast\Back\Application\obj\Debug\net7.0\Application.AssemblyInfo.cs
+C:\MyCodes\WorkClass\ThirdTry\Orpheus Cast\Back\Application\obj\Debug\net7.0\Application.csproj.CoreCompileInputs.cache
+C:\MyCodes\WorkClass\ThirdTry\Orpheus Cast\Back\Application\obj\Debug\net7.0\Application.csproj.CopyComplete
+C:\MyCodes\WorkClass\ThirdTry\Orpheus Cast\Back\Application\obj\Debug\net7.0\Application.dll
+C:\MyCodes\WorkClass\ThirdTry\Orpheus Cast\Back\Application\obj\Debug\net7.0\refint\Application.dll
+C:\MyCodes\WorkClass\ThirdTry\Orpheus Cast\Back\Application\obj\Debug\net7.0\Application.pdb
+C:\MyCodes\WorkClass\ThirdTry\Orpheus Cast\Back\Application\obj\Debug\net7.0\ref\Application.dll

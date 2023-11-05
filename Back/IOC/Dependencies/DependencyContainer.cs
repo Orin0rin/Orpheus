@@ -1,4 +1,5 @@
-﻿using Application.Services.Implementation;
+using Application.Senders.Mail;
+using Application.Services.Implementation;
 using Application.Services.Interfaces;
 using Data.Repositories;
 using Domain.Interfaces;
@@ -20,6 +21,7 @@ namespace IOC.Dependencies
             services.AddScoped<ITokenService, TokenService>();
             services.AddScoped<IUserService, UserService>();
             services.AddScoped<IPodcastGroupService, PodcastGroupService>();
+            services.AddScoped<ISendMail, SendMail>();
             #endregion
 
             #region Repository

@@ -14,19 +14,11 @@ import Swal from 'sweetalert2';
 import { CookieService } from 'ngx-cookie-service';
 
 
-
-
-
-
-
-
 @Component({
  selector: 'podcast',
  templateUrl: './podcast.component.html',
  styleUrls: ['../../styles.scss']
 })
-
-
 
 
 export class PodcastComponent implements OnInit {

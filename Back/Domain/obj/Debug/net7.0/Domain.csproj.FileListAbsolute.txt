@@ -10,3 +10,15 @@ C:\MyCodes\WorkClass\ThirdTry\ThirdTry\Domain\obj\Debug\net7.0\Domain.dll
 C:\MyCodes\WorkClass\ThirdTry\ThirdTry\Domain\obj\Debug\net7.0\refint\Domain.dll
 C:\MyCodes\WorkClass\ThirdTry\ThirdTry\Domain\obj\Debug\net7.0\Domain.pdb
 C:\MyCodes\WorkClass\ThirdTry\ThirdTry\Domain\obj\Debug\net7.0\ref\Domain.dll
+C:\MyCodes\WorkClass\ThirdTry\Orpheus Cast\Back\Domain\bin\Debug\net7.0\Domain.deps.json
+C:\MyCodes\WorkClass\ThirdTry\Orpheus Cast\Back\Domain\bin\Debug\net7.0\Domain.dll
+C:\MyCodes\WorkClass\ThirdTry\Orpheus Cast\Back\Domain\bin\Debug\net7.0\Domain.pdb
+C:\MyCodes\WorkClass\ThirdTry\Orpheus Cast\Back\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache
+C:\MyCodes\WorkClass\ThirdTry\Orpheus Cast\Back\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyCodes\WorkClass\ThirdTry\Orpheus Cast\Back\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+C:\MyCodes\WorkClass\ThirdTry\Orpheus Cast\Back\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+C:\MyCodes\WorkClass\ThirdTry\Orpheus Cast\Back\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+C:\MyCodes\WorkClass\ThirdTry\Orpheus Cast\Back\Domain\obj\Debug\net7.0\Domain.dll
+C:\MyCodes\WorkClass\ThirdTry\Orpheus Cast\Back\Domain\obj\Debug\net7.0\refint\Domain.dll
+C:\MyCodes\WorkClass\ThirdTry\Orpheus Cast\Back\Domain\obj\Debug\net7.0\Domain.pdb
+C:\MyCodes\WorkClass\ThirdTry\Orpheus Cast\Back\Domain\obj\Debug\net7.0\ref\Domain.dll
